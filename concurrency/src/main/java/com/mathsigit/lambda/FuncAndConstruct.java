@@ -31,8 +31,11 @@ public class FuncAndConstruct {
         Arrays.sort(sortC, StringOrder::byLength);
     }
 
-    public Comparator generateComnparator(){
-        //return (Comparator<String>) (s1, s2) -> s1.length() - s2.length();
+    public Comparator generateComnparatorWithAnonymous(){
+        return (Comparator<String>) (s1, s2) -> s1.length() - s2.length();
+    }
+
+    public Comparator generateComnparatorWithLambda(){
         return (Comparator<String>) String::compareTo;
     }
 }
