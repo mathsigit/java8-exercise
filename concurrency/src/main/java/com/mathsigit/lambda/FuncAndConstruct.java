@@ -1,8 +1,5 @@
 package com.mathsigit.lambda;
 
-import com.mathsigit.demo.ImpIFace;
-import com.mathsigit.demo.it.IFace;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
